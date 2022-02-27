@@ -8,3 +8,4 @@
 !.gitattributes
 !anyfs
 !.gitmodules
+**/.DS_Store
