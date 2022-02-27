@@ -5,13 +5,13 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd anyfs; tsc; cd ..; tsc",
+    "build": "cd anyfs; npm run build; cd ..; tsc",
     "start": "npm run build && node ."
   },
   "author": "pixelomer",
   "license": "UNLICENSED",
   "dependencies": {
-    "anyfs": "./anyfs",
+    "anyfs": "file:./anyfs",
     "discord.js": "^13.6.0",
     "node-fetch": "^2.5.12",
     "typescript": "^4.5.5"

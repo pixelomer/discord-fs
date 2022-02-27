@@ -1,6 +1,6 @@
 import { DiscordFS } from "./discord-fs";
 import { existsSync as fileExists } from "fs";
-import { FtpSrv } from "anyfs/node_modules/ftp-srv";
+import { FtpSrv } from "ftp-srv";
 import { readFile, writeFile } from "fs/promises";
 
 function getEnv(key: string): string {

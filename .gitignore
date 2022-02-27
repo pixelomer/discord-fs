@@ -6,3 +6,5 @@
 !tsconfig.json
 !README.md
 !.gitattributes
+!anyfs
+!.gitmodules
