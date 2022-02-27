@@ -1,0 +1,8 @@
+*
+!package.json
+!src
+!src/**
+!.gitignore
+!tsconfig.json
+!README.md
+!.gitattributes
