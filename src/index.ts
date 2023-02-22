@@ -2,7 +2,8 @@ import { DiscordFS } from "./discord-fs";
 import { existsSync as fileExists } from "fs";
 import { FtpSrv } from "ftp-srv";
 import { readFile, writeFile } from "fs/promises";
-
+import { config} from "dotenv"
+config()
 function getEnv(key: string): string {
 	const value = process.env[key];
 	if (value == null) {
